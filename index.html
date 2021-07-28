@@ -5,11 +5,271 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Penguin Fashion</title>
+    <link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
+
+    <!-- bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- header section start  -->
+    <header class="mb-5">
+        <section class="container">
+            <!-- navbar start  -->
+            <nav class="d-flex justify-content-between align-items-center py-4">
+                <div class="navbar-image">
+                    <img src="images/logo.png" alt="logo">
+                </div>
+                <div class="menubar-items d-lg-block d-none fw-bold">
+                    <a href="#">Home</a>
+                    <a href="#">Product</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <i class="fas fa-bars d-block d-lg-none display-5 text-secondary"></i>
+            </nav>
+            <!-- navbar end  -->
+
+            <!-- top section start -->
+            <div class="d-lg-flex justify-content-between align-items-center py-5">
+                <div class="top-image me-5 mb-5"> <img src="images/banner.png" alt="" class="img-fluid w-100"></div>
+                <div class="">
+                    <h1 class="heading display-1"><span class="heading-top-1">Nike React
+                        </span> <br>
+                        <span class="heading-top-2">Infinity Run 2</span>
+                    </h1>
+                    <p class="text-secondary w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
+                        adipisci!</p>
+                    <button class="button rounded-3 d-flex justify-content-center align-items-center">
+                        <i class="fas fa-shopping-cart me-2"></i>
+                        <span>Buy Now</span>
+                    </button>
+                </div>
+            </div>
+            <!-- top section end -->
+        </section>
+    </header>
+    <!-- header section end  -->
+
+    <!-- main section start  -->
+    <main class="container">
+
+        <!-- casual shoe section start -->
+        <section class="my-5">
+            <h2>Casual Shoes</h2>
+
+            <!-- cards section start-->
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 my-2">
+                <!-- card 1  -->
+                <div class="col ">
+                    <div class="card h-100 shadow p-3 rounded-corners">
+                        <div class="bg-light rounded-corners text-center">
+                            <img src="images/shoes/casual-1.png" class="card-img-top img-fluid card-image" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Shoe</h5>
+                            <p class="card-text text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Doloribus, amet.</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3 class="text-warning fw-bold">$ 232</h3>
+                            <button class="button rounded-3 d-flex justify-content-center align-items-center">
+                                <i class="fas fa-shopping-cart me-2"></i>
+                                <span>Buy Now</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2  -->
+                <div class="col ">
+                    <div class="card h-100 shadow p-3 rounded-corners">
+                        <div class="bg-light rounded-corners text-center">
+                            <img src="images/shoes/casual-2.png" class="card-img-top img-fluid card-image" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Shoe</h5>
+                            <p class="card-text text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Doloribus, amet.</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3 class="text-warning fw-bold">$ 232</h3>
+                            <button class="button rounded-3 d-flex justify-content-center align-items-center">
+                                <i class="fas fa-shopping-cart me-2"></i>
+                                <span>Buy Now</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3  -->
+                <div class="col ">
+                    <div class="card h-100 shadow p-3 rounded-corners">
+                        <div class="bg-light rounded-corners text-center">
+                            <img src="images/shoes/casual-3.png" class="card-img-top img-fluid card-image" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Shoe</h5>
+                            <p class="card-text text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Doloribus, amet.</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3 class="text-warning fw-bold">$ 232</h3>
+                            <button class="button rounded-3 d-flex justify-content-center align-items-center">
+                                <i class="fas fa-shopping-cart me-2"></i>
+                                <span>Buy Now</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- cards section end-->
+        </section>
+        <!-- casual shoe section end -->
+
+        <!-- formal shoe section start -->
+        <section class="my-5">
+            <h2>Formal Shoes</h2>
+
+            <!-- cards section start -->
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 my-2">
+
+                <!-- card 1  -->
+                <div class="col ">
+                    <div class="card h-100 shadow p-3 rounded-corners">
+                        <div class="bg-light rounded-corners text-center text-center">
+                            <img src="images/shoes/formal-1.png" class="card-img-top img-fluid card-image" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Black Formal Shoe</h5>
+                            <p class="card-text text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Doloribus, amet.</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3 class="text-warning fw-bold">$ 232</h3>
+                            <button class="button rounded-3 d-flex justify-content-center align-items-center">
+                                <i class="fas fa-shopping-cart me-2"></i>
+                                <span>Buy Now</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 2  -->
+                <div class="col ">
+                    <div class="card h-100 shadow p-3 rounded-corners">
+                        <div class="bg-light rounded-corners text-center">
+                            <img src="images/shoes/formal-2.png" class="card-img-top img-fluid card-image" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Black Formal Shoe</h5>
+                            <p class="card-text text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Doloribus, amet.</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3 class="text-warning fw-bold">$ 232</h3>
+                            <button class="button rounded-3 d-flex justify-content-center align-items-center">
+                                <i class="fas fa-shopping-cart me-2"></i>
+                                <span>Buy Now</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 3  -->
+                <div class="col ">
+                    <div class="card h-100 shadow p-3 rounded-corners">
+                        <div class="bg-light rounded-corners text-center">
+                            <img src="images/shoes/formal-3.png" class="card-img-top img-fluid card-image" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Black Formal Shoe</h5>
+                            <p class="card-text text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Doloribus, amet.</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3 class="text-warning fw-bold">$ 232</h3>
+                            <button class="button rounded-3 d-flex justify-content-center align-items-center">
+                                <i class="fas fa-shopping-cart me-2"></i>
+                                <span>Buy Now</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- cards section end -->
+        </section>
+        <!-- formal shoe section end -->
+
+        <!-- customer support section start -->
+        <section class="my-5 row g-5 align-items-center">
+            <div class="col-md-12 col-lg-6 order-lg-1 order-2">
+
+                <!-- item 1 -->
+                <div class="d-md-flex d-sm-block align-items-center rounded-corners py-3 px-4 shadow">
+                    <div class="me-md-5 text-center">
+                        <img src="images/icons/icon-1.png" alt="" class="service-img">
+                    </div>
+                    <div class="d-flex flex-column align-items-baseline adding-media">
+                        <h3 class="text-capitalize fw-bold mb-2">find the perfect fit</h3>
+                        <p class="text-secondary w-75">Everybody is different, which is why we
+                            offer styles for every body.</p>
+                    </div>
+                </div>
+
+                <!-- item 2 -->
+                <div class="d-md-flex d-sm-block align-items-center rounded-corners py-3 px-4 shadow my-3">
+                    <div class="me-md-5 text-center">
+                        <img src="images/icons/icon-2.png" alt="" class="service-img">
+                    </div>
+                    <div class="d-flex flex-column align-items-baseline adding-media">
+                        <h3 class="text-capitalize fw-bold mb-2">Free Exchanges</h3>
+                        <p class="text-secondary w-75">One of the many reasons you can shop
+                            with peace of mind.</p>
+                    </div>
+                </div>
+
+                <!-- item 3 -->
+                <div class="d-md-flex d-sm-block align-items-center rounded-corners py-3 px-4 shadow ">
+                    <div class="me-md-5 text-center">
+                        <img src="images/icons/icon-3.png" alt="" class="service-img ">
+                    </div>
+                    <div class="d-flex flex-column align-items-baseline adding-media">
+                        <h3 class="text-capitalize fw-bold mb-2">Contact Our Seller</h3>
+                        <p class="text-secondary w-75">They are here to help you. That's quite
+                            literally what we pay them for.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- side image  -->
+            <div class="col-md-12 col-lg-6 order-lg-2 order-1">
+                <img src="images/shopping.png" alt="" class="w-100 img-fluid">
+            </div>
+
+        </section>
+        <!-- customer support section start -->
+
+    </main>
+    <!-- main section end  -->
+
+    <!-- footer section start  -->
+    <footer>
+    </footer>
+    <!-- footer section end  -->
+
+    <!-- bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
