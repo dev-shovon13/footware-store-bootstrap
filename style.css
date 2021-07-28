@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-
 /* utilities */
 *{
     margin: 0;
@@ -34,7 +33,6 @@ h3{
 }
 
 /* header section  */
-
 header{
     background-color: #FFF9F4;
 }
@@ -56,7 +54,6 @@ header{
 }
 .heading{
     font-family: 'Bebas Neue', cursive;
-    /* font-size: 80px; */
 }
 .heading-top-1{
     color: #FA804C;
@@ -66,7 +63,6 @@ header{
 }
 
 /* card section  */
-
 .rounded-corners{
     border-radius: 10px;
 }
@@ -76,19 +72,14 @@ header{
 }
 
 /* service section  */
-
 .service-img{
     width: 100px;
 }
 
 /* media query */
-
 @media (max-width:768px){
     .adding-media h3, .adding-media p{
         margin: auto;
         text-align: center;
-    }
-    .service-img{
-        
     }
 }
